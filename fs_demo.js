@@ -32,6 +32,7 @@ readFile('./content/subfolder/test.txt', 'utf8', (err, result) => {
                     console.log(`An error occured: ${err}`)
                     return
                 }
+                console.log(first,second);
                 console.log('Done with the task');
 
             })
